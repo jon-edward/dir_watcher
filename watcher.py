@@ -1,4 +1,4 @@
-import watcher_tools as w
+from . import watcher_tools as w
 import time
 import os
 from typing import List, Tuple
