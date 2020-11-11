@@ -44,7 +44,7 @@ change is detected.
 optional arguments:
   -h, --help            show this help message and exit
   --run_file RUN_F, -rf RUN_F
-                        Defines a .py file to run when a change is detected in
+                        Specifies a .py file to run when a change is detected in
                         watched directory. Defaults to not running any files
                         upon change detected.
   --watch_directory W_DIR, -wd W_DIR
