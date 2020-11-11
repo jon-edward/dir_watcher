@@ -12,7 +12,7 @@ def _handle_arguments() -> Tuple[str, str, bool, List[str], List[str], float, bo
 
     a.add_argument("--run_file", "-rf", type=str, dest="run_f",
                    default="",
-                   help="Defines a .py file to run when a change is detected in watched directory. Defaults to not " +
+                   help="Specifies a .py file to run when a change is detected in watched directory. Defaults to not " +
                         "running any files upon change detected.")
 
     a.add_argument("--watch_directory", "-wd", type=str, dest="w_dir",
