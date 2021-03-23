@@ -2,7 +2,7 @@
 dir_watcher is a simple utility for watching a specified directory for changes to any of its files (including nested directories or just the top level), printing a notification of a change to a file or directory, and optionally running a main python script upon encountered change.
 
 # How to use
-dir_watcher can be used as a module or be run directly as a python script. 
+dir_watcher can be used as a module or run directly as a python script. 
 
 # Using dir_watcher as a module
 **Simplest case:**
@@ -28,7 +28,7 @@ _Where the desired outcome is to only check .py or .txt files in the directory p
 python3 path/to/file.py -a 1
 ```
 
-# Using dir_watcher as a python script
+# Using dir_watcher from the command line
 Using the -h help flag prints:
 ```
 usage: watcher.py [-h] [--run_file RUN_F] [--watch_directory W_DIR]
